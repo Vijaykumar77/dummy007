@@ -1,12 +1,18 @@
 
 import './App.css';
+import Fruit from './Component/Fruit';
 
 
 function App() {
+  const fruits=
+    {
+    name:"Mango",
+    color:"Yellow"
+    }
+  
   return (
     <div className="App">
-
-Hi this is prepbytes
+      <Fruit fruits={fruits} />
     </div>
   );
 }
